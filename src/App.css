@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+@font-face{
+  font-family: 'Inter';
+  src: url(../public/Inter-VariableFont_slnt\,wght.ttf)
+}
+.inter{
+  font-family: inter;
+}
+
+@font-face{
+  font-family: 'Poppins';
+  src: url(../public/Poppins-SemiBold.ttf);
+}
+.poppins{
+  font-family: poppins;
+}
+
+@font-face{
+  font-family: 'Poppins-light';
+  src: url(../public/Poppins-Light.ttf);
+}
+.poppins{
+  font-family: poppins-light;
+}

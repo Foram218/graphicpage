@@ -26,9 +26,6 @@ import Jira from "../components/images/Jira.svg";
 import Trello from "../components/images/Trello.svg";
 import Asana from "../components/images/Asana.svg";
 import Slack from "../components/images/Slack.svg";
-import AI from "../components/images/AI.svg";
-import Figma from "../components/images/figma.svg";
-import PS from "../components/images/PS.svg";
 
 const GraphicDesignProjects = ({ activeIndex }) => {
   const navigate = useNavigate();

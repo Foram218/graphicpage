@@ -92,7 +92,7 @@ const GraphicDesign = () => {
         <img src={background} alt="" className={styles.backgroundImage} />
 
         <div className={styles.imageText}>
-          <h1 className={styles.title}>Graphic Design Development</h1>
+          <h1 className={styles.title}>Graphic Design Portfolio</h1>
         </div>
       </div>
 
@@ -121,7 +121,7 @@ const GraphicDesign = () => {
 
       {/* <---------------------------- Technologies and Platforms Section ----------------------------> */}
 
-      <div className={styles.heading}>
+      {/* <div className={styles.heading}>
         <p className={styles.mainTitle}>PROJECT</p>
         <Stack direction="row" spacing={2}>
           <p className={styles.middleTitle}>Technologies & Platforms</p>
@@ -151,7 +151,7 @@ const GraphicDesign = () => {
         </div>
 
         <Platform activeIndex={activeIndex} />
-      </div>
+      </div> */}
 
       <div className="flex justify-center items-center flex-col mt-5">
         <div className="flex justify-center items-center flex-col h-[80px] md:h-[150px] ">
@@ -189,7 +189,7 @@ const GraphicDesign = () => {
 
       {/* <---------------------------------- Recent Projects ----------------------------------> */}
 
-      <div>
+      {/* <div>
         <div className={styles.titleOfRecentProjects}>
           <div className={styles.mainTitle}>PROJECT</div>
           <div className={styles.bothTitle}>
@@ -198,7 +198,7 @@ const GraphicDesign = () => {
           </div>
         </div>
         <GraphicRecentProject />
-      </div>
+      </div> */}
 
       {/* <--------------------------------- Graphic Design Services from Craft Coders ----------------------------------> */}
 
@@ -223,7 +223,7 @@ const GraphicDesign = () => {
 
       {/* <--------------------------------  Form Section For Contact With Senior ----------------------------------------->  */}
 
-      <div className={styles.schedule}>
+      {/* <div className={styles.schedule}>
         <div className={styles.titles}>
           <div className={styles.mainTitle}>PROJECT</div>
           <div className={styles.middleTitle}>
@@ -233,7 +233,7 @@ const GraphicDesign = () => {
         </div>
 
         <FormContainer />
-      </div>
+      </div> */}
 
       {/* <------------------------------------ Clients Review Section ----------------------------------------> */}
 

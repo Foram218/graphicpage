@@ -3,13 +3,19 @@ import GraphicProjects from "./GraphicProjects";
 // import styles from "./GraphicDesign.module.css";
 import w1 from "../components/images/w1.svg";
 import w2 from "../components/images/w2.svg";
+import w3 from "../components/images/w3.svg";
 import { useNavigate } from "react-router-dom";
 // import SocialMedia1 from "../components/images/SocialMedia1.svg";
 // import AppPreview1 from "../components/images/AppPreview1.svg";
 // import ProductDesign1 from "../components/images/ProductDesign1.svg";
 // import LogoDesign1 from "../components/images/LogoDesign1.svg";
 // import Brochure1 from "../components/images/Brochure1.svg";
-// import Website1 from "../components/images/Website1.svg";
+import crushApp from "../components/images/crushApp.svg";
+import nan from "../components/images/nan.svg";
+import enroll from "../components/images/enroll.svg";
+import jp from "../components/images/jp.svg";
+import chatGPT from "../components/images/chatGPT.svg";
+import jpAdmin from "../components/images/jpAdmin.svg";
 import AD1 from "../components/images/AD1.svg";
 import AD2 from "../components/images/AD2.svg";
 import AD3 from "../components/images/AD3.svg";
@@ -34,22 +40,34 @@ const GraphicDesignProjects = ({ activeIndex }) => {
       id: "1",
       data: [
         {
-          img: logo3,
+          img: crushApp,
+          name: "Crush Application - UI /UX Design",
+          title: "CrushApp",
         },
         {
-          img: logo2,
+          img: nan,
+          name: "Nantucket Rentals - UI /UX Design",
+          title: "NantucketWeb",
         },
         {
-          img: brochure,
+          img: enroll,
+          name: "Enrollin APP - UI /UX Design",
+          title: "Enrollin",
         },
         {
-          img: letter,
+          img: jp,
+          name: "J-pad - Website Design",
+          title: "jPad",
         },
         {
-          img: logo5,
+          img: chatGPT,
+          name: "ChatGPT - Graphic Design",
+          title: "ChatGPT",
         },
         {
-          img: jPad,
+          img: jpAdmin,
+          name: "J-pad - Admin panel",
+          title: "jPadAdminPanel",
         },
       ],
     },
@@ -156,6 +174,10 @@ const GraphicDesignProjects = ({ activeIndex }) => {
           img: w2,
           title: "jPad",
         },
+        {
+          img: w3,
+          title: "Acorn",
+        },
       ],
     },
     {
@@ -169,6 +191,7 @@ const GraphicDesignProjects = ({ activeIndex }) => {
         {
           img: letter,
           name: "Letter Head ",
+          title: "Sp",
         },
         {
           img: jPad,

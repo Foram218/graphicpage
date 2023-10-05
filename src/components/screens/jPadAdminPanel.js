@@ -13,9 +13,9 @@ const jPadAdminPanel = () => {
         <img src={jPadWeb1} alt="" className={styles.image} />
         <div className="text-left px-12 ">
           <p className={styles.title}>J-Pad Web panel</p>
-          <p className={`${styles.text} my-5`}>
+          {/* <p className={`${styles.text} my-5`}>
             Project URL : https://nantucketrentals.com/
-          </p>
+          </p> */}
           <p className={`${styles.text} my-5`}>Categories : Websites</p>
           <p className={styles.text}>Tools : Adobe Photoshop</p>
         </div>

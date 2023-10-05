@@ -12,12 +12,12 @@ const Epic = () => {
       <div className={`${styles.container} mt-[150px]`}>
         <img src={logo3} alt="" className={styles.image} />
         <div className="text-left px-12 ">
-          <p className={styles.title}>Enrollin</p>
-          <p className={`${styles.text} my-5`}>
+          <p className={styles.title}>Epic Series</p>
+          {/* <p className={`${styles.text} my-5`}>
             Project URL : https://nantucketrentals.com/
-          </p>
-          <p className={`${styles.text} my-5`}>Categories : Websites</p>
-          <p className={styles.text}>Tools : Adobe Photoshop</p>
+          </p> */}
+          <p className={`${styles.text} my-5`}>Categories : UI/UX Design</p>
+          <p className={styles.text}>Tools : Adobe XD, Adobe Illustrator</p>
         </div>
       </div>
       <img src={require("../images/epic.png")} alt="" className="mt-20" />

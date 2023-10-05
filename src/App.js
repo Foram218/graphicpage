@@ -17,6 +17,8 @@ import EnrollinApp from "./components/screens/EnrollinApp";
 import Epic from "./components/screens/Epic";
 import Crush from "./components/screens/Crush";
 import Inbines from "./components/screens/Inbines";
+import Acorn from "./components/screens/Acorn";
+import Sp from "./components/screens/Sp";
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
           <Route path="/Epic" Component={Epic} />
           <Route path="/Crush" Component={Crush} />
           <Route path="/Inbines" Component={Inbines} />
+          <Route path="/Acorn" Component={Acorn} />
+          <Route path="/Sp" Component={Sp} />
         </Routes>
       </BrowserRouter>
     </div>

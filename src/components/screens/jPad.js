@@ -12,9 +12,12 @@ const jPad = () => {
       <div className={`${styles.container} mt-[150px]`}>
         <img src={w2} alt="" className={styles.image} />
         <div className="text-left px-12 ">
-          <p className={styles.title}>Nantucket Rentals</p>
+          <p className={styles.title}>J-Pad</p>
           <p className={`${styles.text} my-5`}>
-            Project URL : https://nantucketrentals.com/
+            Project URL :{" "}
+            <a href="https://j-pad.net/" style={{ color: "#032887" }}>
+              https://j-pad.net/
+            </a>
           </p>
           <p className={`${styles.text} my-5`}>Categories : Websites</p>
           <p className={styles.text}>Tools : Adobe Photoshop</p>

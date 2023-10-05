@@ -14,7 +14,13 @@ const NantucketWeb = () => {
         <div className="text-left px-12 ">
           <p className={styles.title}>Nantucket Rentals</p>
           <p className={`${styles.text} my-5`}>
-            Project URL : https://nantucketrentals.com/
+            Project URL :{" "}
+            <a
+              href="https://nantucketrentals.com/"
+              style={{ color: "#032887" }}
+            >
+              https://nantucketrentals.com/
+            </a>
           </p>
           <p className={`${styles.text} my-5`}>Categories : Websites</p>
           <p className={styles.text}>Tools : Adobe Photoshop</p>

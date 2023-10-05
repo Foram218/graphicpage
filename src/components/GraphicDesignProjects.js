@@ -1,5 +1,6 @@
 import React from "react";
 import GraphicProjects from "./GraphicProjects";
+// import styles from "./GraphicDesign.module.css";
 import w1 from "../components/images/w1.svg";
 import w2 from "../components/images/w2.svg";
 import { useNavigate } from "react-router-dom";
@@ -21,11 +22,9 @@ import logo3 from "../components/images/logo3.svg";
 import logo4 from "../components/images/logo4.svg";
 import logo5 from "../components/images/logo5.svg";
 import logo6 from "../components/images/logo6.svg";
-import MicrosoftTeam from "../components/images/MicrosoftTeam.svg";
-import Jira from "../components/images/Jira.svg";
-import Trello from "../components/images/Trello.svg";
-import Asana from "../components/images/Asana.svg";
-import Slack from "../components/images/Slack.svg";
+import brochure from "../components/images/brochure.svg";
+import letter from "../components/images/letter.svg";
+import jPad from "../components/images/jPad.svg";
 
 const GraphicDesignProjects = ({ activeIndex }) => {
   const navigate = useNavigate();
@@ -59,21 +58,33 @@ const GraphicDesignProjects = ({ activeIndex }) => {
       data: [
         {
           img: AD1,
+          name: "Easi - UI /UX Design",
+          title: "Easi",
         },
         {
           img: AD2,
+          name: "Enrollin APP - UI /UX Design",
+          title: "Enrollin",
         },
         {
           img: AD3,
+          name: "Nantucket Rentals - UI /UX Design",
+          title: "Nuntucket",
         },
         {
           img: AD4,
+          name: "Sameep - UI /UX Design",
+          title: "Sameep",
         },
         {
           img: AD5,
+          name: "OpenAI - UI /UX Design",
+          title: "OpenAI",
         },
         {
           img: AD6,
+          name: "Crush Application - UI /UX Design",
+          title: "CrushApp",
         },
       ],
     },
@@ -82,44 +93,65 @@ const GraphicDesignProjects = ({ activeIndex }) => {
       data: [
         {
           img: logo1,
+          name: "ChatGPT - Graphic Design",
+          title: "ChatGPT",
         },
         {
           img: logo2,
+          name: "Keep Moving - Graphic Design",
+          title: "KeepMoving",
         },
         {
           img: logo3,
+          name: "Dwarikesh - Graphic Design",
         },
         {
           img: logo4,
+          name: "J-Pad - Graphic Design",
         },
         {
           img: logo5,
+          name: "Omni - Graphic Design",
         },
         {
           img: logo6,
+          name: "Motatapu - Graphic Design",
         },
       ],
     },
+    // {
+    //   id: "4",
+    //   data: [
+    //     {
+    //       img: SocialMedia1,
+    //     },
+    //     {
+    //       img: AppPreview1,
+    //     },
+    //     {
+    //       img: ProductDesign1,
+    //     },
+    //     {
+    //       img: LogoDesign1,
+    //     },
+    //     {
+    //       img: Brochure1,
+    //     },
+    //     {
+    //       img: Website1,
+    //     },
+    //   ],
+    // },
     {
       id: "4",
       data: [
         {
-          img: SocialMedia1,
+          img: w1,
+          title: "NantucketWeb",
         },
         {
-          img: AppPreview1,
-        },
-        {
-          img: ProductDesign1,
-        },
-        {
-          img: LogoDesign1,
-        },
-        {
-          img: Brochure1,
-        },
-        {
-          img: Website1,
+          img: w2,
+          title: "jPad",
         },
       ],
     },
@@ -127,30 +159,17 @@ const GraphicDesignProjects = ({ activeIndex }) => {
       id: "5",
       data: [
         {
-          img: w1,
+          img: brochure,
+          name: "Brochure ",
         },
         {
-          img: w2,
-        },
-      ],
-    },
-    {
-      id: "6",
-      data: [
-        {
-          img: MicrosoftTeam,
+          img: letter,
+          name: "Letter Head ",
         },
         {
-          img: Jira,
-        },
-        {
-          img: Trello,
-        },
-        {
-          img: Asana,
-        },
-        {
-          img: Slack,
+          img: jPad,
+          name: "J-pad - Admin panel",
+          title: "jPadAdminPanel",
         },
       ],
     },
@@ -159,7 +178,20 @@ const GraphicDesignProjects = ({ activeIndex }) => {
   return (
     <div className="flex flex-wrap px-16 justify-center items-center ">
       {platforms[activeIndex].data.map((item, index) => {
-        return <GraphicProjects key={index} img={item.img} name={item.name} />;
+        return (
+          <GraphicProjects
+            key={index}
+            img={item.img}
+            name={item.name}
+            link={item.link}
+            onClick={() => {
+              console.log("res:=", item.title);
+              const link = item.title.replace(/ /g, "");
+              navigate(`/${link}`);
+            }}
+            // className={` ${styles.imgMainContent}  `}
+          />
+        );
       })}
     </div>
   );

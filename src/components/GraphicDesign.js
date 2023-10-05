@@ -77,7 +77,6 @@ const GraphicDesign = () => {
     { lable: "All" },
     { lable: "App Design" },
     { lable: "Logo" },
-    { lable: "Social Media Post" },
     { lable: "Website" },
     { lable: "Other Design" },
   ];

@@ -203,7 +203,7 @@ const GraphicDesign = () => {
 
       <div className={styles.mobileApps}>
         <div className={styles.titles}>
-          <div className={styles.mainTitle}>PROJECT</div>
+          {/* <div className={styles.mainTitle}>PROJECT</div> */}
           <div className={styles.middleTitle}>
             Why Choose Graphic Design Services From
           </div>

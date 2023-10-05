@@ -50,7 +50,7 @@ const GraphicDesignProjects = ({ activeIndex }) => {
           title: "NantucketWeb",
         },
         {
-          img: enroll,
+          img: AD2,
           name: "Enrollin APP - UI /UX Design",
           title: "Enrollin",
         },

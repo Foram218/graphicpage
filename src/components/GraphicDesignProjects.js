@@ -21,7 +21,7 @@ import logo2 from "../components/images/logo2.svg";
 import logo3 from "../components/images/logo3.svg";
 import logo4 from "../components/images/logo4.svg";
 import logo5 from "../components/images/logo5.svg";
-import logo6 from "../components/images/logo6.svg";
+// import logo6 from "../components/images/logo6.svg";
 import brochure from "../components/images/brochure.svg";
 import letter from "../components/images/letter.svg";
 import jPad from "../components/images/jPad.svg";
@@ -34,22 +34,22 @@ const GraphicDesignProjects = ({ activeIndex }) => {
       id: "1",
       data: [
         {
-          img: SocialMedia1,
+          img: logo3,
         },
         {
-          img: AppPreview1,
+          img: logo2,
         },
         {
-          img: ProductDesign1,
+          img: brochure,
         },
         {
-          img: LogoDesign1,
+          img: letter,
         },
         {
-          img: Brochure1,
+          img: logo5,
         },
         {
-          img: Website1,
+          img: jPad,
         },
       ],
     },
@@ -98,25 +98,28 @@ const GraphicDesignProjects = ({ activeIndex }) => {
         },
         {
           img: logo2,
-          name: "Keep Moving - Graphic Design",
-          title: "KeepMoving",
+          name: "Enrolin - Graphic Design",
+          title: "EnrollinApp",
         },
         {
           img: logo3,
-          name: "Dwarikesh - Graphic Design",
+          name: "Epicseries - Graphic Design",
+          title: "Epic",
         },
         {
           img: logo4,
-          name: "J-Pad - Graphic Design",
+          name: "Crush App - Graphic Design",
+          title: "Crush",
         },
         {
           img: logo5,
-          name: "Omni - Graphic Design",
+          name: "Inbines - Graphic Design",
+          title: "Inbines",
         },
-        {
-          img: logo6,
-          name: "Motatapu - Graphic Design",
-        },
+        // {
+        //   img: logo6,
+        //   name: "Motatapu - Graphic Design",
+        // },
       ],
     },
     // {
@@ -161,6 +164,7 @@ const GraphicDesignProjects = ({ activeIndex }) => {
         {
           img: brochure,
           name: "Brochure ",
+          title: "Brochure",
         },
         {
           img: letter,

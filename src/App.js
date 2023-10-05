@@ -12,6 +12,11 @@ import NantucketWeb from "./components/screens/NantucketWeb";
 import CrushApp from "./components/screens/CrushApp";
 import jPad from "./components/screens/jPad";
 import jPadAdminPanel from "./components/screens/jPadAdminPanel";
+import Brochure from "./components/screens/Brochure";
+import EnrollinApp from "./components/screens/EnrollinApp";
+import Epic from "./components/screens/Epic";
+import Crush from "./components/screens/Crush";
+import Inbines from "./components/screens/Inbines";
 
 function App() {
   return (
@@ -26,10 +31,14 @@ function App() {
           <Route path="/OpenAI" Component={OpenAI} />
           <Route path="/CrushApp" Component={CrushApp} />
           <Route path="/ChatGPT" Component={ChatGPT} />
-          <Route path="/KeepMoving" Component={KeepMoving} />
+          <Route path="/EnrollinApp" Component={EnrollinApp} />
           <Route path="/NantucketWeb" Component={NantucketWeb} />
           <Route path="/jPad" Component={jPad} />
           <Route path="/jPadAdminPanel" Component={jPadAdminPanel} />
+          <Route path="/Brochure" Component={Brochure} />
+          <Route path="/Epic" Component={Epic} />
+          <Route path="/Crush" Component={Crush} />
+          <Route path="/Inbines" Component={Inbines} />
         </Routes>
       </BrowserRouter>
     </div>
